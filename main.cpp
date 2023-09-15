@@ -1,7 +1,8 @@
 
 #include<iostream>
 #include<conio.h>
-#include<windows.h>
+#include<windows.h>/*for declaring all of the functions in the windows API.
+It defines a very large number of windows specific functions that can be used in c*/
 #include<time.h>//to make span value more random
 using namespace std;
 bool gameOver;
@@ -17,7 +18,7 @@ void Setup(){
     dir=STOP;
     x=width/2;
     y=height/2;
-    fruitX=rand()%width;
+     B fruitX=rand()%width;
     fruitY=rand()%height;
     score=0;
 }
